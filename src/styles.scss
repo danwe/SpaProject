@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~font-awesome/css/font-awesome.css';
+
+.flex {
+    display: inline-flex;
+}
+.margin-right {
+    margin-right: 20px;
+}
+.full-page {
+    width: 100%;
+}
+
+.obs {
+   // position: fixed;
+    //left: 144px;
+  
+    //top: 8px;
+    //height: 700px;
+}
+
+
+.vertical-line {
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 20px;
+}
+
+.end {
+    text-align: end;
+}
+
+.scroll-none {
+    
+    overflow: hidden;
+
+}

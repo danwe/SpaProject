@@ -1,0 +1,19 @@
+<div class="full-page">
+    <table class="full-page">
+        <tr class="full-page">
+            <td class="galery">
+                <div class="flex margin-right list-style scroll" >
+                    <app-list-dashborad (selectedPicParent)="selectedPicParent($event)" [imageList]="imageList"></app-list-dashborad>
+                </div>
+            </td>
+            <td class="image-comp" style="vertical-align: baseline;">
+                <div class="text-right">
+                    <app-detail-image [detail]="imageView"></app-detail-image>
+                </div>
+                <div  class="flex view-style">
+                    <app-view-dashborad [imageView]="imageView"></app-view-dashborad>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
